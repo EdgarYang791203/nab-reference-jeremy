@@ -280,7 +280,7 @@ Batch 與 cache 折扣可疊加（cached input 走 Batch 再半價）。
 
 ## 8. 環境與部署
 
-- Node 20+、pnpm。
+- Node 22.19+（正式環境與 CI 用 Node 24 LTS）、pnpm。
 - 本地：`pnpm dev` 同時起 Nuxt + Hono，`.env` 指向 Neon dev branch 與測試用 Anthropic key（低上限）。
 - CI：GitHub Actions — `pnpm lint && pnpm test` → 通過後部署。
 - 前端：Cloudflare Pages 官方 action。

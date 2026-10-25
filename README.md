@@ -13,7 +13,7 @@ docs/            規格文件
 
 ## 開發
 
-需求：Node 20+、pnpm 10+（`corepack enable`）。
+需求：Node 22.19+（建議 24 LTS）、pnpm 10+（`corepack enable`）。
 
 ```bash
 pnpm install

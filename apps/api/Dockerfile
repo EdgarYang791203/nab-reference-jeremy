@@ -1,6 +1,6 @@
 # Cloud Run 部署 image（monorepo：從 repo 根目錄 build）
 #   docker build -f apps/api/Dockerfile -t nba-api .
-FROM node:20-slim AS base
+FROM node:24-slim AS base
 RUN corepack enable
 WORKDIR /repo
 

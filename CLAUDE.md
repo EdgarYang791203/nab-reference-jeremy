@@ -15,7 +15,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **後端**：Hono，Docker → Cloud Run（min 0 / max 1）；DB 為 Neon Postgres + Drizzle ORM
 - **測試**：Vitest 全 workspace 統一（`vitest.workspace.ts` 於根目錄，`pnpm test` 全跑）+ Playwright 兩條 smoke
 - **登入**：Cloudflare Access（Google IdP，email 白名單）；排程：Cloud Scheduler OIDC → `/jobs/*`
-- Node 20+、pnpm（不用 npm）
+- Node 22.19+（建議 24 LTS，正式環境 node:24-slim）、pnpm（不用 npm）
 
 ## 常用指令（骨架建好後應成立）
 
